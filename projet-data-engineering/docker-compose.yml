@@ -1,0 +1,110 @@
+# Stack complète : PostgreSQL + Airflow (webserver, scheduler) + Elasticsearch + Kibana
+x-airflow-common: &airflow-common
+  build: .
+  image: projet-airflow:2.10.2
+  environment: &airflow-env
+    AIRFLOW__CORE__EXECUTOR: LocalExecutor
+    AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres/airflow
+    AIRFLOW__CORE__LOAD_EXAMPLES: "false"
+    AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION: "false"
+    AIRFLOW__WEBSERVER__EXPOSE_CONFIG: "true"
+    # Connexion Airflow vers Elasticsearch (conn_id = elasticsearch_default)
+    AIRFLOW_CONN_ELASTICSEARCH_DEFAULT: "http://elasticsearch:9200"
+    # Variables Airflow (modifiables aussi depuis Admin > Variables)
+    AIRFLOW_VAR_PRODUCTS_API_URL: "https://dummyjson.com/products?limit=0"
+    AIRFLOW_VAR_MIN_ROWS: "10"
+    AIRFLOW_VAR_USE_FALLBACK: "true"
+    PYTHONPATH: /opt/airflow/scripts
+  user: "${AIRFLOW_UID:-50000}:0"
+  volumes:
+    - ./dags:/opt/airflow/dags
+    - ./scripts:/opt/airflow/scripts
+    - ./data:/opt/airflow/data
+    - ./elasticsearch:/opt/airflow/elasticsearch
+    - ./logs:/opt/airflow/logs
+  depends_on:
+    postgres:
+      condition: service_healthy
+    elasticsearch:
+      condition: service_healthy
+
+services:
+  postgres:
+    image: postgres:15
+    environment:
+      POSTGRES_USER: airflow
+      POSTGRES_PASSWORD: airflow
+      POSTGRES_DB: airflow
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD", "pg_isready", "-U", "airflow"]
+      interval: 5s
+      retries: 10
+
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:8.15.0
+    environment:
+      - discovery.type=single-node
+      - xpack.security.enabled=false
+      - ES_JAVA_OPTS=-Xms512m -Xmx512m
+    ports:
+      - "9200:9200"
+    volumes:
+      - es-data:/usr/share/elasticsearch/data
+    healthcheck:
+      test: ["CMD-SHELL", "curl -s http://localhost:9200/_cluster/health | grep -qE '\"status\":\"(green|yellow)\"'"]
+      interval: 10s
+      timeout: 5s
+      retries: 20
+
+  kibana:
+    image: docker.elastic.co/kibana/kibana:8.15.0
+    environment:
+      ELASTICSEARCH_HOSTS: http://elasticsearch:9200
+    ports:
+      - "5601:5601"
+    depends_on:
+      elasticsearch:
+        condition: service_healthy
+
+  airflow-init:
+    <<: *airflow-common
+    entrypoint: /bin/bash
+    command:
+      - -c
+      - |
+        mkdir -p /opt/airflow/logs /opt/airflow/data/raw /opt/airflow/data/processed
+        airflow db migrate
+        airflow users create --username admin --password admin \
+          --firstname Admin --lastname User --role Admin --email admin@example.com || true
+
+  airflow-webserver:
+    <<: *airflow-common
+    command: webserver
+    ports:
+      - "8080:8080"
+    depends_on:
+      airflow-init:
+        condition: service_completed_successfully
+
+  airflow-scheduler:
+    <<: *airflow-common
+    command: scheduler
+    depends_on:
+      airflow-init:
+        condition: service_completed_successfully
+
+  # Importe automatiquement le dashboard Kibana au démarrage
+  kibana-init:
+    image: curlimages/curl:8.10.1
+    depends_on:
+      - kibana
+    volumes:
+      - ./kibana:/kibana:ro
+    entrypoint: ["/bin/sh", "/kibana/import_dashboard.sh"]
+    restart: "no"
+
+volumes:
+  postgres-data:
+  es-data:

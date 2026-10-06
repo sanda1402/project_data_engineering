@@ -1,0 +1,97 @@
+[
+  {
+    "name": "avg_price_by_category",
+    "question": "Quel est le prix moyen et le nombre de produits par catégorie ?",
+    "index": "products",
+    "body": {
+      "size": 0,
+      "aggs": {
+        "by_category": {
+          "terms": { "field": "category", "size": 20, "order": { "avg_price": "desc" } },
+          "aggs": { "avg_price": { "avg": { "field": "price" } } }
+        }
+      }
+    }
+  },
+  {
+    "name": "top_brands_by_review_rating",
+    "question": "Quelles sont les 10 meilleures marques selon la note moyenne des avis (au moins 2 produits) ?",
+    "index": "products",
+    "body": {
+      "size": 0,
+      "aggs": {
+        "by_brand": {
+          "terms": { "field": "brand", "size": 10, "min_doc_count": 2, "order": { "avg_rating": "desc" } },
+          "aggs": { "avg_rating": { "avg": { "field": "avg_review_rating" } } }
+        }
+      }
+    }
+  },
+  {
+    "name": "stock_level_distribution",
+    "question": "Comment se répartissent les produits par niveau de stock ?",
+    "index": "products",
+    "body": {
+      "size": 0,
+      "aggs": { "by_stock_level": { "terms": { "field": "stock_level" } } }
+    }
+  },
+  {
+    "name": "out_of_stock_products",
+    "question": "Quels produits sont en rupture ou à stock faible (à réapprovisionner en priorité) ?",
+    "index": "products",
+    "body": {
+      "size": 10,
+      "query": { "terms": { "stock_level": ["rupture", "faible"] } },
+      "sort": [{ "stock": "asc" }],
+      "_source": ["id", "title", "category", "brand", "stock", "stock_level"]
+    }
+  },
+  {
+    "name": "avg_discount_by_category",
+    "question": "Quelles catégories bénéficient des remises moyennes les plus élevées ?",
+    "index": "products",
+    "body": {
+      "size": 0,
+      "aggs": {
+        "by_category": {
+          "terms": { "field": "category", "size": 20, "order": { "avg_discount": "desc" } },
+          "aggs": { "avg_discount": { "avg": { "field": "discount_percentage" } } }
+        }
+      }
+    }
+  },
+  {
+    "name": "sentiment_distribution",
+    "question": "Quelle est la proportion d'avis positifs, neutres et négatifs ?",
+    "index": "reviews",
+    "body": {
+      "size": 0,
+      "aggs": { "by_sentiment": { "terms": { "field": "sentiment" } } }
+    }
+  },
+  {
+    "name": "reviews_per_month",
+    "question": "Comment évolue le nombre d'avis clients et leur note moyenne dans le temps ?",
+    "index": "reviews",
+    "body": {
+      "size": 0,
+      "aggs": {
+        "per_month": {
+          "date_histogram": { "field": "review_date", "calendar_interval": "month" },
+          "aggs": { "avg_rating": { "avg": { "field": "rating" } } }
+        }
+      }
+    }
+  },
+  {
+    "name": "negative_reviews_by_category",
+    "question": "Quelles catégories concentrent le plus d'avis négatifs ?",
+    "index": "reviews",
+    "body": {
+      "size": 0,
+      "query": { "term": { "sentiment": "négatif" } },
+      "aggs": { "by_category": { "terms": { "field": "category", "size": 10 } } }
+    }
+  }
+]

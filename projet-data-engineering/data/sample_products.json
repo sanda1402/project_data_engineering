@@ -1,0 +1,1615 @@
+[
+  {
+    "id": 1,
+    "title": "Lipstick 1",
+    "description": "Description of Lipstick 1",
+    "category": "beauty",
+    "price": 192.91,
+    "discountPercentage": 5.47,
+    "rating": 3.52,
+    "stock": 0,
+    "tags": [
+      "beauty",
+      "sample"
+    ],
+    "brand": "Nail Couture",
+    "sku": "SKU0001",
+    "weight": 4,
+    "warrantyInformation": "1 year warranty",
+    "shippingInformation": "Ships in 3-5 business days",
+    "availabilityStatus": "In Stock",
+    "reviews": [
+      {
+        "rating": 3,
+        "comment": "Average quality",
+        "date": "2025-04-05T10:00:00.000Z",
+        "reviewerName": "Alice",
+        "reviewerEmail": "user35@x.com"
+      },
+      {
+        "rating": 1,
+        "comment": "Highly recommended",
+        "date": "2025-07-02T10:00:00.000Z",
+        "reviewerName": "Alice",
+        "reviewerEmail": "user6@x.com"
+      }
+    ],
+    "returnPolicy": "30 days return policy",
+    "minimumOrderQuantity": 5,
+    "meta": {
+      "createdAt": "2025-04-30T09:41:02.000Z",
+      "updatedAt": "2025-04-30T09:41:02.000Z"
+    },
+    "thumbnail": "https://cdn.example.com/1.png"
+  },
+  {
+    "id": 2,
+    "title": "Lipstick 2",
+    "description": "Description of Lipstick 2",
+    "category": "beauty",
+    "price": 127.6,
+    "discountPercentage": 6.61,
+    "rating": 2.13,
+    "stock": 25,
+    "tags": [
+      "beauty",
+      "sample"
+    ],
+    "brand": "Nail Couture",
+    "sku": "SKU0002",
+    "weight": 2,
+    "warrantyInformation": "1 year warranty",
+    "shippingInformation": "Ships in 3-5 business days",
+    "availabilityStatus": "In Stock",
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "Not as described",
+        "date": "2025-01-25T10:00:00.000Z",
+        "reviewerName": "Bob",
+        "reviewerEmail": "user28@x.com"
+      },
+      {
+        "rating": 3,
+        "comment": "Not as described",
+        "date": "2025-03-07T10:00:00.000Z",
+        "reviewerName": "Chloé",
+        "reviewerEmail": "user7@x.com"
+      },
+      {
+        "rating": 1,
+        "comment": "Excellent value",
+        "date": "2025-02-12T10:00:00.000Z",
+        "reviewerName": "Chloé",
+        "reviewerEmail": "user39@x.com"
+      }
+    ],
+    "returnPolicy": "30 days return policy",
+    "minimumOrderQuantity": 4,
+    "meta": {
+      "createdAt": "2025-04-30T09:41:02.000Z",
+      "updatedAt": "2025-04-30T09:41:02.000Z"
+    },
+    "thumbnail": "https://cdn.example.com/2.png"
+  },
+  {
+    "id": 3,
+    "title": "Lipstick 3",
+    "description": "Description of Lipstick 3",
+    "category": "beauty",
+    "price": 26.4,
+    "discountPercentage": 9.25,
+    "rating": 2.63,
+    "stock": 8,
+    "tags": [
+      "beauty",
+      "sample"
+    ],
+    "brand": "Nail Couture",
+    "sku": "SKU0003",
+    "weight": 2,
+    "warrantyInformation": "1 year warranty",
+    "shippingInformation": "Ships in 3-5 business days",
+    "availabilityStatus": "In Stock",
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "Poor quality",
+        "date": "2025-10-07T10:00:00.000Z",
+        "reviewerName": "Alice",
+        "reviewerEmail": "user3@x.com"
+      },
+      {
+        "rating": 2,
+        "comment": "Not as described",
+        "date": "2025-02-28T10:00:00.000Z",
+        "reviewerName": "Bob",
+        "reviewerEmail": "user7@x.com"
+      },
+      {
+        "rating": 4,
+        "comment": "Not as described",
+        "date": "2025-08-21T10:00:00.000Z",
+        "reviewerName": "Chloé",
+        "reviewerEmail": "user11@x.com"
+      }
+    ],
+    "returnPolicy": "30 days return policy",
+    "minimumOrderQuantity": 5,
+    "meta": {
+      "createdAt": "2025-04-30T09:41:02.000Z",
+      "updatedAt": "2025-04-30T09:41:02.000Z"
+    },
+    "thumbnail": "https://cdn.example.com/3.png"
+  },
+  {
+    "id": 4,
+    "title": "Lipstick 4",
+    "description": "Description of Lipstick 4",
+    "category": "beauty",
+    "price": 191.59,
+    "discountPercentage": 6.62,
+    "rating": 2.74,
+    "stock": 40,
+    "tags": [
+      "beauty",
+      "sample"
+    ],
+    "sku": "SKU0004",
+    "weight": 5,
+    "warrantyInformation": "1 year warranty",
+    "shippingInformation": "Ships in 3-5 business days",
+    "availabilityStatus": "In Stock",
+    "reviews": [
+      {
+        "rating": 2,
+        "comment": "Would buy again",
+        "date": "2025-08-13T10:00:00.000Z",
+        "reviewerName": "Chloé",
+        "reviewerEmail": "user36@x.com"
+      },
+      {
+        "rating": 2,
+        "comment": "Poor quality",
+        "date": "2025-01-08T10:00:00.000Z",
+        "reviewerName": "Alice",
+        "reviewerEmail": "user21@x.com"
+      },
+      {
+        "rating": 4,
+        "comment": "Not as described",
+        "date": "2025-02-07T10:00:00.000Z",
+        "reviewerName": "Emma",
+        "reviewerEmail": "user21@x.com"
+      },
+      {
+        "rating": 2,
+        "comment": "Fast delivery",
+        "date": "2025-07-21T10:00:00.000Z",
+        "reviewerName": "David",
+        "reviewerEmail": "user10@x.com"
+      }
+    ],
+    "returnPolicy": "30 days return policy",
+    "minimumOrderQuantity": 5,
+    "meta": {
+      "createdAt": "2025-04-30T09:41:02.000Z",
+      "updatedAt": "2025-04-30T09:41:02.000Z"
+    },
+    "thumbnail": "https://cdn.example.com/4.png"
+  },
+  {
+    "id": 5,
+    "title": "Lipstick 5",
+    "description": "Description of Lipstick 5",
+    "category": "beauty",
+    "price": 130.24,
+    "discountPercentage": 17.04,
+    "rating": 3.61,
+    "stock": 8,
+    "tags": [
+      "beauty",
+      "sample"
+    ],
+    "brand": "Nail Couture",
+    "sku": "SKU0005",
+    "weight": 6,
+    "warrantyInformation": "1 year warranty",
+    "shippingInformation": "Ships in 3-5 business days",
+    "availabilityStatus": "In Stock",
+    "reviews": [
+      {
+        "rating": 4,
+        "comment": "Poor quality",
+        "date": "2025-04-05T10:00:00.000Z",
+        "reviewerName": "Emma",
+        "reviewerEmail": "user32@x.com"
+      },
+      {
+        "rating": 1,
+        "comment": "Great product!",
+        "date": "2025-02-05T10:00:00.000Z",
+        "reviewerName": "Bob",
+        "reviewerEmail": "user28@x.com"
+      },
+      {
+        "rating": 5,
+        "comment": "Very satisfied",
+        "date": "2025-07-13T10:00:00.000Z",
+        "reviewerName": "Emma",
+        "reviewerEmail": "user30@x.com"
+      },
+      {
+        "rating": 5,
+        "comment": "Not as described",
+        "date": "2025-09-28T10:00:00.000Z",
+        "reviewerName": "Alice",
+        "reviewerEmail": "user8@x.com"
+      }
+    ],
+    "returnPolicy": "30 days return policy",
+    "minimumOrderQuantity": 1,
+    "meta": {
+      "createdAt": "2025-04-30T09:41:02.000Z",
+      "updatedAt": "2025-04-30T09:41:02.000Z"
+    },
+    "thumbnail": "https://cdn.example.com/5.png"
+  },
+  {
+    "id": 6,
+    "title": "Perfume 1",
+    "description": "Description of Perfume 1",
+    "category": "fragrances",
+    "price": 90.17,
+    "discountPercentage": 15.22,
+    "rating": 2.46,
+    "stock": 120,
+    "tags": [
+      "fragrances",
+      "sample"
+    ],
+    "brand": "Chanel",
+    "sku": "SKU0006",
+    "weight": 9,
+    "warrantyInformation": "1 year warranty",
+    "shippingInformation": "Ships in 3-5 business days",
+    "availabilityStatus": "In Stock",
+    "reviews": [
+      {
+        "rating": 4,
+        "comment": "Great product!",
+        "date": "2025-12-24T10:00:00.000Z",
+        "reviewerName": "Chloé",
+        "reviewerEmail": "user33@x.com"
+      },
+      {
+        "rating": 2,
+        "comment": "Disappointed",
+        "date": "2025-02-28T10:00:00.000Z",
+        "reviewerName": "Chloé",
+        "reviewerEmail": "user33@x.com"
+      }
+    ],
+    "returnPolicy": "30 days return policy",
+    "minimumOrderQuantity": 5,
+    "meta": {
+      "createdAt": "2025-04-30T09:41:02.000Z",
+      "updatedAt": "2025-04-30T09:41:02.000Z"
+    },
+    "thumbnail": "https://cdn.example.com/6.png"
+  },
+  {
+    "id": 7,
+    "title": "Perfume 2",
+    "description": "Description of Perfume 2",
+    "category": "fragrances",
+    "price": 275.79,
+    "discountPercentage": 10.58,
+    "rating": 2.64,
+    "stock": 40,
+    "tags": [
+      "fragrances",
+      "sample"
+    ],
+    "brand": "Gucci",
+    "sku": "SKU0007",
+    "weight": 4,
+    "warrantyInformation": "1 year warranty",
+    "shippingInformation": "Ships in 3-5 business days",
+    "availabilityStatus": "In Stock",
+    "reviews": [
+      {
+        "rating": 3,
+        "comment": "Fast delivery",
+        "date": "2025-01-04T10:00:00.000Z",
+        "reviewerName": "Chloé",
+        "reviewerEmail": "user20@x.com"
+      },
+      {
+        "rating": 2,
+        "comment": "Great product!",
+        "date": "2025-04-19T10:00:00.000Z",
+        "reviewerName": "Alice",
+        "reviewerEmail": "user6@x.com"
+      },
+      {
+        "rating": 4,
+        "comment": "Very satisfied",
+        "date": "2025-09-25T10:00:00.000Z",
+        "reviewerName": "Bob",
+        "reviewerEmail": "user9@x.com"
+      },
+      {
+        "rating": 4,
+        "comment": "Disappointed",
+        "date": "2025-03-09T10:00:00.000Z",
+        "reviewerName": "Emma",
+        "reviewerEmail": "user39@x.com"
+      }
+    ],
+    "returnPolicy": "30 days return policy",
+    "minimumOrderQuantity": 3,
+    "meta": {
+      "createdAt": "2025-04-30T09:41:02.000Z",
+      "updatedAt": "2025-04-30T09:41:02.000Z"
+    },
+    "thumbnail": "https://cdn.example.com/7.png"
+  },
+  {
+    "id": 8,
+    "title": "Perfume 3",
+    "description": "Description of Perfume 3",
+    "category": "fragrances",
+    "price": 121.5,
+    "discountPercentage": 12.85,
+    "rating": null,
+    "stock": 25,
+    "tags": [
+      "fragrances",
+      "sample"
+    ],
+    "brand": "Chanel",
+    "sku": "SKU0008",
+    "weight": 9,
+    "warrantyInformation": "1 year warranty",
+    "shippingInformation": "Ships in 3-5 business days",
+    "availabilityStatus": "In Stock",
+    "reviews": [
+      {
+        "rating": 3,
+        "comment": "Fast delivery",
+        "date": "2025-09-15T10:00:00.000Z",
+        "reviewerName": "Alice",
+        "reviewerEmail": "user16@x.com"
+      },
+      {
+        "rating": 2,
+        "comment": "Very satisfied",
+        "date": "2025-06-01T10:00:00.000Z",
+        "reviewerName": "Emma",
+        "reviewerEmail": "user36@x.com"
+      },
+      {
+        "rating": 2,
+        "comment": "Highly recommended",
+        "date": "2025-04-01T10:00:00.000Z",
+        "reviewerName": "Alice",
+        "reviewerEmail": "user4@x.com"
+      },
+      {
+        "rating": 2,
+        "comment": "Very satisfied",
+        "date": "2025-01-28T10:00:00.000Z",
+        "reviewerName": "Chloé",
+        "reviewerEmail": "user5@x.com"
+      }
+    ],
+    "returnPolicy": "30 days return policy",
+    "minimumOrderQuantity": 2,
+    "meta": {
+      "createdAt": "2025-04-30T09:41:02.000Z",
+      "updatedAt": "2025-04-30T09:41:02.000Z"
+    },
+    "thumbnail": "https://cdn.example.com/8.png"
+  },
+  {
+    "id": 9,
+    "title": "Perfume 4",
+    "description": "Description of Perfume 4",
+    "category": "fragrances",
+    "price": 217.84,
+    "discountPercentage": 4.79,
+    "rating": 3.61,
+    "stock": 3,
+    "tags": [
+      "fragrances",
+      "sample"
+    ],
+    "brand": "Dior",
+    "sku": "SKU0009",
+    "weight": 3,
+    "warrantyInformation": "1 year warranty",
+    "shippingInformation": "Ships in 3-5 business days",
+    "availabilityStatus": "In Stock",
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "Fast delivery",
+        "date": "2025-04-26T10:00:00.000Z",
+        "reviewerName": "David",
+        "reviewerEmail": "user27@x.com"
+      },
+      {
+        "rating": 2,
+        "comment": "Very satisfied",
+        "date": "2025-02-22T10:00:00.000Z",
+        "reviewerName": "David",
+        "reviewerEmail": "user23@x.com"
+      },
+      {
+        "rating": 4,
+        "comment": "Excellent value",
+        "date": "2025-08-28T10:00:00.000Z",
+        "reviewerName": "Alice",
+        "reviewerEmail": "user7@x.com"
+      },
+      {
+        "rating": 1,
+        "comment": "Excellent value",
+        "date": "2025-12-11T10:00:00.000Z",
+        "reviewerName": "Alice",
+        "reviewerEmail": "user16@x.com"
+      }
+    ],
+    "returnPolicy": "30 days return policy",
+    "minimumOrderQuantity": 3,
+    "meta": {
+      "createdAt": "2025-04-30T09:41:02.000Z",
+      "updatedAt": "2025-04-30T09:41:02.000Z"
+    },
+    "thumbnail": "https://cdn.example.com/9.png"
+  },
+  {
+    "id": 10,
+    "title": "Perfume 5",
+    "description": "Description of Perfume 5",
+    "category": "fragrances",
+    "price": 140.4,
+    "discountPercentage": 5.34,
+    "rating": 3.2,
+    "stock": 0,
+    "tags": [
+      "fragrances",
+      "sample"
+    ],
+    "brand": "Chanel",
+    "sku": "SKU0010",
+    "weight": 7,
+    "warrantyInformation": "1 year warranty",
+    "shippingInformation": "Ships in 3-5 business days",
+    "availabilityStatus": "In Stock",
+    "reviews": [
+      {
+        "rating": 4,
+        "comment": "Disappointed",
+        "date": "2025-02-02T10:00:00.000Z",
+        "reviewerName": "Emma",
+        "reviewerEmail": "user1@x.com"
+      },
+      {
+        "rating": 1,
+        "comment": "Average quality",
+        "date": "2025-03-14T10:00:00.000Z",
+        "reviewerName": "David",
+        "reviewerEmail": "user31@x.com"
+      }
+    ],
+    "returnPolicy": "30 days return policy",
+    "minimumOrderQuantity": 1,
+    "meta": {
+      "createdAt": "2025-04-30T09:41:02.000Z",
+      "updatedAt": "2025-04-30T09:41:02.000Z"
+    },
+    "thumbnail": "https://cdn.example.com/10.png"
+  },
+  {
+    "id": 11,
+    "title": "Chair 1",
+    "description": "Description of Chair 1",
+    "category": "furniture",
+    "price": 295.64,
+    "discountPercentage": 14.6,
+    "rating": 3.51,
+    "stock": 120,
+    "tags": [
+      "furniture",
+      "sample"
+    ],
+    "brand": "Rustic",
+    "sku": "SKU0011",
+    "weight": 3,
+    "warrantyInformation": "1 year warranty",
+    "shippingInformation": "Ships in 3-5 business days",
+    "availabilityStatus": "In Stock",
+    "reviews": [
+      {
+        "rating": 4,
+        "comment": "Not as described",
+        "date": "2025-07-23T10:00:00.000Z",
+        "reviewerName": "Emma",
+        "reviewerEmail": "user32@x.com"
+      },
+      {
+        "rating": 2,
+        "comment": "Average quality",
+        "date": "2025-05-07T10:00:00.000Z",
+        "reviewerName": "Alice",
+        "reviewerEmail": "user38@x.com"
+      },
+      {
+        "rating": 5,
+        "comment": "Great product!",
+        "date": "2025-12-11T10:00:00.000Z",
+        "reviewerName": "Alice",
+        "reviewerEmail": "user4@x.com"
+      }
+    ],
+    "returnPolicy": "30 days return policy",
+    "minimumOrderQuantity": 1,
+    "meta": {
+      "createdAt": "2025-04-30T09:41:02.000Z",
+      "updatedAt": "2025-04-30T09:41:02.000Z"
+    },
+    "thumbnail": "https://cdn.example.com/11.png"
+  },
+  {
+    "id": 12,
+    "title": "Chair 2",
+    "description": "Description of Chair 2",
+    "category": "furniture",
+    "price": 288.35,
+    "discountPercentage": 15.48,
+    "rating": 3.26,
+    "stock": 40,
+    "tags": [
+      "furniture",
+      "sample"
+    ],
+    "brand": "Rustic",
+    "sku": "SKU0012",
+    "weight": 9,
+    "warrantyInformation": "1 year warranty",
+    "shippingInformation": "Ships in 3-5 business days",
+    "availabilityStatus": "In Stock",
+    "reviews": [
+      {
+        "rating": 2,
+        "comment": "Very satisfied",
+        "date": "2025-10-03T10:00:00.000Z",
+        "reviewerName": "Bob",
+        "reviewerEmail": "user26@x.com"
+      },
+      {
+        "rating": 1,
+        "comment": "Highly recommended",
+        "date": "2025-04-19T10:00:00.000Z",
+        "reviewerName": "Emma",
+        "reviewerEmail": "user3@x.com"
+      }
+    ],
+    "returnPolicy": "30 days return policy",
+    "minimumOrderQuantity": 3,
+    "meta": {
+      "createdAt": "2025-04-30T09:41:02.000Z",
+      "updatedAt": "2025-04-30T09:41:02.000Z"
+    },
+    "thumbnail": "https://cdn.example.com/12.png"
+  },
+  {
+    "id": 13,
+    "title": "Chair 3",
+    "description": "Description of Chair 3",
+    "category": "furniture",
+    "price": 280.61,
+    "discountPercentage": 24.96,
+    "rating": 4.99,
+    "stock": 0,
+    "tags": [
+      "furniture",
+      "sample"
+    ],
+    "brand": "Rustic",
+    "sku": "SKU0013",
+    "weight": 4,
+    "warrantyInformation": "1 year warranty",
+    "shippingInformation": "Ships in 3-5 business days",
+    "availabilityStatus": "In Stock",
+    "reviews": [
+      {
+        "rating": 3,
+        "comment": "Average quality",
+        "date": "2025-05-13T10:00:00.000Z",
+        "reviewerName": "Bob",
+        "reviewerEmail": "user20@x.com"
+      },
+      {
+        "rating": 4,
+        "comment": "Poor quality",
+        "date": "2025-02-01T10:00:00.000Z",
+        "reviewerName": "David",
+        "reviewerEmail": "user40@x.com"
+      }
+    ],
+    "returnPolicy": "30 days return policy",
+    "minimumOrderQuantity": 5,
+    "meta": {
+      "createdAt": "2025-04-30T09:41:02.000Z",
+      "updatedAt": "2025-04-30T09:41:02.000Z"
+    },
+    "thumbnail": "https://cdn.example.com/13.png"
+  },
+  {
+    "id": 14,
+    "title": "Chair 4",
+    "description": "Description of Chair 4",
+    "category": "furniture",
+    "price": 81.76,
+    "discountPercentage": 2.89,
+    "rating": 2.32,
+    "stock": 40,
+    "tags": [
+      "furniture",
+      "sample"
+    ],
+    "brand": "IKEA",
+    "sku": "SKU0014",
+    "weight": 5,
+    "warrantyInformation": "1 year warranty",
+    "shippingInformation": "Ships in 3-5 business days",
+    "availabilityStatus": "In Stock",
+    "reviews": [
+      {
+        "rating": 1,
+        "comment": "Average quality",
+        "date": "2025-06-10T10:00:00.000Z",
+        "reviewerName": "Bob",
+        "reviewerEmail": "user29@x.com"
+      },
+      {
+        "rating": 5,
+        "comment": "Not as described",
+        "date": "2025-10-26T10:00:00.000Z",
+        "reviewerName": "Emma",
+        "reviewerEmail": "user1@x.com"
+      },
+      {
+        "rating": 5,
+        "comment": "Not as described",
+        "date": "2025-11-04T10:00:00.000Z",
+        "reviewerName": "Bob",
+        "reviewerEmail": "user17@x.com"
+      }
+    ],
+    "returnPolicy": "30 days return policy",
+    "minimumOrderQuantity": 3,
+    "meta": {
+      "createdAt": "2025-04-30T09:41:02.000Z",
+      "updatedAt": "2025-04-30T09:41:02.000Z"
+    },
+    "thumbnail": "https://cdn.example.com/14.png"
+  },
+  {
+    "id": 15,
+    "title": "Chair 5",
+    "description": "Description of Chair 5",
+    "category": "furniture",
+    "price": 182.63,
+    "discountPercentage": 0.24,
+    "rating": 2.23,
+    "stock": 80,
+    "tags": [
+      "furniture",
+      "sample"
+    ],
+    "brand": "IKEA",
+    "sku": "SKU0015",
+    "weight": 9,
+    "warrantyInformation": "1 year warranty",
+    "shippingInformation": "Ships in 3-5 business days",
+    "availabilityStatus": "In Stock",
+    "reviews": [
+      {
+        "rating": 3,
+        "comment": "Average quality",
+        "date": "2025-11-21T10:00:00.000Z",
+        "reviewerName": "Chloé",
+        "reviewerEmail": "user33@x.com"
+      },
+      {
+        "rating": 4,
+        "comment": "Not as described",
+        "date": "2025-01-03T10:00:00.000Z",
+        "reviewerName": "David",
+        "reviewerEmail": "user18@x.com"
+      },
+      {
+        "rating": 1,
+        "comment": "Great product!",
+        "date": "2025-06-25T10:00:00.000Z",
+        "reviewerName": "Bob",
+        "reviewerEmail": "user17@x.com"
+      },
+      {
+        "rating": 2,
+        "comment": "Fast delivery",
+        "date": "2025-09-23T10:00:00.000Z",
+        "reviewerName": "David",
+        "reviewerEmail": "user36@x.com"
+      }
+    ],
+    "returnPolicy": "30 days return policy",
+    "minimumOrderQuantity": 1,
+    "meta": {
+      "createdAt": "2025-04-30T09:41:02.000Z",
+      "updatedAt": "2025-04-30T09:41:02.000Z"
+    },
+    "thumbnail": "https://cdn.example.com/15.png"
+  },
+  {
+    "id": 16,
+    "title": "Juice 1",
+    "description": "Description of Juice 1",
+    "category": "groceries",
+    "price": 250.87,
+    "discountPercentage": 19.56,
+    "rating": 3.24,
+    "stock": 80,
+    "tags": [
+      "groceries",
+      "sample"
+    ],
+    "brand": "Daily",
+    "sku": "SKU0016",
+    "weight": 4,
+    "warrantyInformation": "1 year warranty",
+    "shippingInformation": "Ships in 3-5 business days",
+    "availabilityStatus": "In Stock",
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "Would buy again",
+        "date": "2025-07-05T10:00:00.000Z",
+        "reviewerName": "Alice",
+        "reviewerEmail": "user20@x.com"
+      },
+      {
+        "rating": 3,
+        "comment": "Great product!",
+        "date": "2025-06-07T10:00:00.000Z",
+        "reviewerName": "Bob",
+        "reviewerEmail": "user7@x.com"
+      },
+      {
+        "rating": 3,
+        "comment": "Disappointed",
+        "date": "2025-07-20T10:00:00.000Z",
+        "reviewerName": "Bob",
+        "reviewerEmail": "user16@x.com"
+      },
+      {
+        "rating": 2,
+        "comment": "Would buy again",
+        "date": "2025-07-01T10:00:00.000Z",
+        "reviewerName": "Bob",
+        "reviewerEmail": "user22@x.com"
+      }
+    ],
+    "returnPolicy": "30 days return policy",
+    "minimumOrderQuantity": 3,
+    "meta": {
+      "createdAt": "2025-04-30T09:41:02.000Z",
+      "updatedAt": "2025-04-30T09:41:02.000Z"
+    },
+    "thumbnail": "https://cdn.example.com/16.png"
+  },
+  {
+    "id": 17,
+    "title": "Juice 2",
+    "description": "Description of Juice 2",
+    "category": "groceries",
+    "price": 50.28,
+    "discountPercentage": 8.28,
+    "rating": 2.08,
+    "stock": 8,
+    "tags": [
+      "groceries",
+      "sample"
+    ],
+    "brand": "Fresh",
+    "sku": "SKU0017",
+    "weight": 10,
+    "warrantyInformation": "1 year warranty",
+    "shippingInformation": "Ships in 3-5 business days",
+    "availabilityStatus": "In Stock",
+    "reviews": [
+      {
+        "rating": 1,
+        "comment": "Excellent value",
+        "date": "2025-01-28T10:00:00.000Z",
+        "reviewerName": "David",
+        "reviewerEmail": "user15@x.com"
+      },
+      {
+        "rating": 2,
+        "comment": "Fast delivery",
+        "date": "2025-06-10T10:00:00.000Z",
+        "reviewerName": "Bob",
+        "reviewerEmail": "user15@x.com"
+      },
+      {
+        "rating": 1,
+        "comment": "Average quality",
+        "date": "2025-07-11T10:00:00.000Z",
+        "reviewerName": "Chloé",
+        "reviewerEmail": "user5@x.com"
+      },
+      {
+        "rating": 3,
+        "comment": "Poor quality",
+        "date": "2025-11-17T10:00:00.000Z",
+        "reviewerName": "David",
+        "reviewerEmail": "user35@x.com"
+      }
+    ],
+    "returnPolicy": "30 days return policy",
+    "minimumOrderQuantity": 3,
+    "meta": {
+      "createdAt": "2025-04-30T09:41:02.000Z",
+      "updatedAt": "2025-04-30T09:41:02.000Z"
+    },
+    "thumbnail": "https://cdn.example.com/17.png"
+  },
+  {
+    "id": 18,
+    "title": "Juice 3",
+    "description": "Description of Juice 3",
+    "category": "groceries",
+    "price": 14.36,
+    "discountPercentage": 15.58,
+    "rating": 3.99,
+    "stock": 0,
+    "tags": [
+      "groceries",
+      "sample"
+    ],
+    "brand": "Daily",
+    "sku": "SKU0018",
+    "weight": 5,
+    "warrantyInformation": "1 year warranty",
+    "shippingInformation": "Ships in 3-5 business days",
+    "availabilityStatus": "In Stock",
+    "reviews": [
+      {
+        "rating": 4,
+        "comment": "Poor quality",
+        "date": "2025-12-26T10:00:00.000Z",
+        "reviewerName": "Chloé",
+        "reviewerEmail": "user28@x.com"
+      },
+      {
+        "rating": 5,
+        "comment": "Disappointed",
+        "date": "2025-02-13T10:00:00.000Z",
+        "reviewerName": "Emma",
+        "reviewerEmail": "user13@x.com"
+      },
+      {
+        "rating": 3,
+        "comment": "Great product!",
+        "date": "2025-12-14T10:00:00.000Z",
+        "reviewerName": "Alice",
+        "reviewerEmail": "user34@x.com"
+      },
+      {
+        "rating": 5,
+        "comment": "Average quality",
+        "date": "2025-06-14T10:00:00.000Z",
+        "reviewerName": "Alice",
+        "reviewerEmail": "user22@x.com"
+      }
+    ],
+    "returnPolicy": "30 days return policy",
+    "minimumOrderQuantity": 5,
+    "meta": {
+      "createdAt": "2025-04-30T09:41:02.000Z",
+      "updatedAt": "2025-04-30T09:41:02.000Z"
+    },
+    "thumbnail": "https://cdn.example.com/18.png"
+  },
+  {
+    "id": 19,
+    "title": "Juice 4",
+    "description": "Description of Juice 4",
+    "category": "groceries",
+    "price": 94.86,
+    "discountPercentage": 7.17,
+    "rating": 3.29,
+    "stock": 40,
+    "tags": [
+      "groceries",
+      "sample"
+    ],
+    "brand": "Daily",
+    "sku": "SKU0019",
+    "weight": 6,
+    "warrantyInformation": "1 year warranty",
+    "shippingInformation": "Ships in 3-5 business days",
+    "availabilityStatus": "In Stock",
+    "reviews": [
+      {
+        "rating": 3,
+        "comment": "Excellent value",
+        "date": "2025-12-10T10:00:00.000Z",
+        "reviewerName": "Emma",
+        "reviewerEmail": "user9@x.com"
+      },
+      {
+        "rating": 2,
+        "comment": "Excellent value",
+        "date": "2025-11-13T10:00:00.000Z",
+        "reviewerName": "Bob",
+        "reviewerEmail": "user40@x.com"
+      },
+      {
+        "rating": 5,
+        "comment": "Not as described",
+        "date": "2025-07-18T10:00:00.000Z",
+        "reviewerName": "Alice",
+        "reviewerEmail": "user20@x.com"
+      }
+    ],
+    "returnPolicy": "30 days return policy",
+    "minimumOrderQuantity": 4,
+    "meta": {
+      "createdAt": "2025-04-30T09:41:02.000Z",
+      "updatedAt": "2025-04-30T09:41:02.000Z"
+    },
+    "thumbnail": "https://cdn.example.com/19.png"
+  },
+  {
+    "id": 20,
+    "title": "Juice 5",
+    "description": "Description of Juice 5",
+    "category": "groceries",
+    "price": 134.21,
+    "discountPercentage": 21.24,
+    "rating": 2.22,
+    "stock": 25,
+    "tags": [
+      "groceries",
+      "sample"
+    ],
+    "brand": "Daily",
+    "sku": "SKU0020",
+    "weight": 10,
+    "warrantyInformation": "1 year warranty",
+    "shippingInformation": "Ships in 3-5 business days",
+    "availabilityStatus": "In Stock",
+    "reviews": [
+      {
+        "rating": 2,
+        "comment": "Disappointed",
+        "date": "2025-08-26T10:00:00.000Z",
+        "reviewerName": "Bob",
+        "reviewerEmail": "user6@x.com"
+      },
+      {
+        "rating": 3,
+        "comment": "Disappointed",
+        "date": "2025-11-21T10:00:00.000Z",
+        "reviewerName": "Emma",
+        "reviewerEmail": "user22@x.com"
+      },
+      {
+        "rating": 1,
+        "comment": "Average quality",
+        "date": "2025-11-10T10:00:00.000Z",
+        "reviewerName": "Bob",
+        "reviewerEmail": "user13@x.com"
+      },
+      {
+        "rating": 2,
+        "comment": "Great product!",
+        "date": "2025-01-08T10:00:00.000Z",
+        "reviewerName": "David",
+        "reviewerEmail": "user40@x.com"
+      }
+    ],
+    "returnPolicy": "30 days return policy",
+    "minimumOrderQuantity": 2,
+    "meta": {
+      "createdAt": "2025-04-30T09:41:02.000Z",
+      "updatedAt": "2025-04-30T09:41:02.000Z"
+    },
+    "thumbnail": "https://cdn.example.com/20.png"
+  },
+  {
+    "id": 21,
+    "title": "Laptop 1",
+    "description": "Description of Laptop 1",
+    "category": "laptops",
+    "price": 1078.93,
+    "discountPercentage": 3.33,
+    "rating": 3.39,
+    "stock": 40,
+    "tags": [
+      "laptops",
+      "sample"
+    ],
+    "brand": "Lenovo",
+    "sku": "SKU0021",
+    "weight": 10,
+    "warrantyInformation": "1 year warranty",
+    "shippingInformation": "Ships in 3-5 business days",
+    "availabilityStatus": "In Stock",
+    "reviews": [
+      {
+        "rating": 4,
+        "comment": "Excellent value",
+        "date": "2025-04-05T10:00:00.000Z",
+        "reviewerName": "Alice",
+        "reviewerEmail": "user7@x.com"
+      },
+      {
+        "rating": 4,
+        "comment": "Average quality",
+        "date": "2025-03-26T10:00:00.000Z",
+        "reviewerName": "Emma",
+        "reviewerEmail": "user30@x.com"
+      },
+      {
+        "rating": 1,
+        "comment": "Disappointed",
+        "date": "2025-04-28T10:00:00.000Z",
+        "reviewerName": "Alice",
+        "reviewerEmail": "user30@x.com"
+      }
+    ],
+    "returnPolicy": "30 days return policy",
+    "minimumOrderQuantity": 3,
+    "meta": {
+      "createdAt": "2025-04-30T09:41:02.000Z",
+      "updatedAt": "2025-04-30T09:41:02.000Z"
+    },
+    "thumbnail": "https://cdn.example.com/21.png"
+  },
+  {
+    "id": 22,
+    "title": "Laptop 2",
+    "description": "Description of Laptop 2",
+    "category": "laptops",
+    "price": 1425.31,
+    "discountPercentage": 1.94,
+    "rating": 2.86,
+    "stock": 8,
+    "tags": [
+      "laptops",
+      "sample"
+    ],
+    "brand": "Asus",
+    "sku": "SKU0022",
+    "weight": 6,
+    "warrantyInformation": "1 year warranty",
+    "shippingInformation": "Ships in 3-5 business days",
+    "availabilityStatus": "In Stock",
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "Disappointed",
+        "date": "2025-07-27T10:00:00.000Z",
+        "reviewerName": "Emma",
+        "reviewerEmail": "user29@x.com"
+      },
+      {
+        "rating": 2,
+        "comment": "Fast delivery",
+        "date": "2025-08-09T10:00:00.000Z",
+        "reviewerName": "Bob",
+        "reviewerEmail": "user18@x.com"
+      },
+      {
+        "rating": 5,
+        "comment": "Fast delivery",
+        "date": "2025-11-08T10:00:00.000Z",
+        "reviewerName": "Chloé",
+        "reviewerEmail": "user29@x.com"
+      }
+    ],
+    "returnPolicy": "30 days return policy",
+    "minimumOrderQuantity": 5,
+    "meta": {
+      "createdAt": "2025-04-30T09:41:02.000Z",
+      "updatedAt": "2025-04-30T09:41:02.000Z"
+    },
+    "thumbnail": "https://cdn.example.com/22.png"
+  },
+  {
+    "id": 23,
+    "title": "Laptop 3",
+    "description": "Description of Laptop 3",
+    "category": "laptops",
+    "price": 125.46,
+    "discountPercentage": 1.56,
+    "rating": 4.5,
+    "stock": 25,
+    "tags": [
+      "laptops",
+      "sample"
+    ],
+    "brand": "Lenovo",
+    "sku": "SKU0023",
+    "weight": 1,
+    "warrantyInformation": "1 year warranty",
+    "shippingInformation": "Ships in 3-5 business days",
+    "availabilityStatus": "In Stock",
+    "reviews": [
+      {
+        "rating": 2,
+        "comment": "Excellent value",
+        "date": "2025-12-05T10:00:00.000Z",
+        "reviewerName": "Bob",
+        "reviewerEmail": "user5@x.com"
+      },
+      {
+        "rating": 4,
+        "comment": "Excellent value",
+        "date": "2025-06-18T10:00:00.000Z",
+        "reviewerName": "David",
+        "reviewerEmail": "user27@x.com"
+      }
+    ],
+    "returnPolicy": "30 days return policy",
+    "minimumOrderQuantity": 5,
+    "meta": {
+      "createdAt": "2025-04-30T09:41:02.000Z",
+      "updatedAt": "2025-04-30T09:41:02.000Z"
+    },
+    "thumbnail": "https://cdn.example.com/23.png"
+  },
+  {
+    "id": 24,
+    "title": "Laptop 4",
+    "description": "Description of Laptop 4",
+    "category": "laptops",
+    "price": 573.67,
+    "discountPercentage": 10.9,
+    "rating": 2.09,
+    "stock": 8,
+    "tags": [
+      "laptops",
+      "sample"
+    ],
+    "brand": "Lenovo",
+    "sku": "SKU0024",
+    "weight": 7,
+    "warrantyInformation": "1 year warranty",
+    "shippingInformation": "Ships in 3-5 business days",
+    "availabilityStatus": "In Stock",
+    "reviews": [
+      {
+        "rating": 3,
+        "comment": "Not as described",
+        "date": "2025-07-28T10:00:00.000Z",
+        "reviewerName": "David",
+        "reviewerEmail": "user35@x.com"
+      },
+      {
+        "rating": 5,
+        "comment": "Highly recommended",
+        "date": "2025-04-16T10:00:00.000Z",
+        "reviewerName": "Bob",
+        "reviewerEmail": "user18@x.com"
+      }
+    ],
+    "returnPolicy": "30 days return policy",
+    "minimumOrderQuantity": 2,
+    "meta": {
+      "createdAt": "2025-04-30T09:41:02.000Z",
+      "updatedAt": "2025-04-30T09:41:02.000Z"
+    },
+    "thumbnail": "https://cdn.example.com/24.png"
+  },
+  {
+    "id": 25,
+    "title": "Laptop 5",
+    "description": "Description of Laptop 5",
+    "category": "laptops",
+    "price": 1261.56,
+    "discountPercentage": 4.54,
+    "rating": 2.78,
+    "stock": 8,
+    "tags": [
+      "laptops",
+      "sample"
+    ],
+    "brand": "Apple",
+    "sku": "SKU0025",
+    "weight": 8,
+    "warrantyInformation": "1 year warranty",
+    "shippingInformation": "Ships in 3-5 business days",
+    "availabilityStatus": "In Stock",
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "Disappointed",
+        "date": "2025-01-13T10:00:00.000Z",
+        "reviewerName": "Emma",
+        "reviewerEmail": "user37@x.com"
+      },
+      {
+        "rating": 1,
+        "comment": "Very satisfied",
+        "date": "2025-11-14T10:00:00.000Z",
+        "reviewerName": "Bob",
+        "reviewerEmail": "user30@x.com"
+      }
+    ],
+    "returnPolicy": "30 days return policy",
+    "minimumOrderQuantity": 3,
+    "meta": {
+      "createdAt": "2025-04-30T09:41:02.000Z",
+      "updatedAt": "2025-04-30T09:41:02.000Z"
+    },
+    "thumbnail": "https://cdn.example.com/25.png"
+  },
+  {
+    "id": 26,
+    "title": "Phone 1",
+    "description": "Description of Phone 1",
+    "category": "smartphones",
+    "price": 509.56,
+    "discountPercentage": 3.81,
+    "rating": 2.38,
+    "stock": 80,
+    "tags": [
+      "smartphones",
+      "sample"
+    ],
+    "brand": "Samsung",
+    "sku": "SKU0026",
+    "weight": 10,
+    "warrantyInformation": "1 year warranty",
+    "shippingInformation": "Ships in 3-5 business days",
+    "availabilityStatus": "In Stock",
+    "reviews": [
+      {
+        "rating": 3,
+        "comment": "Excellent value",
+        "date": "2025-05-27T10:00:00.000Z",
+        "reviewerName": "Alice",
+        "reviewerEmail": "user31@x.com"
+      },
+      {
+        "rating": 1,
+        "comment": "Disappointed",
+        "date": "2025-01-12T10:00:00.000Z",
+        "reviewerName": "Bob",
+        "reviewerEmail": "user5@x.com"
+      },
+      {
+        "rating": 1,
+        "comment": "Great product!",
+        "date": "2025-04-07T10:00:00.000Z",
+        "reviewerName": "Alice",
+        "reviewerEmail": "user40@x.com"
+      }
+    ],
+    "returnPolicy": "30 days return policy",
+    "minimumOrderQuantity": 2,
+    "meta": {
+      "createdAt": "2025-04-30T09:41:02.000Z",
+      "updatedAt": "2025-04-30T09:41:02.000Z"
+    },
+    "thumbnail": "https://cdn.example.com/26.png"
+  },
+  {
+    "id": 27,
+    "title": "Phone 2",
+    "description": "Description of Phone 2",
+    "category": "smartphones",
+    "price": 700.23,
+    "discountPercentage": 17.27,
+    "rating": 3.88,
+    "stock": 0,
+    "tags": [
+      "smartphones",
+      "sample"
+    ],
+    "brand": "Oppo",
+    "sku": "SKU0027",
+    "weight": 5,
+    "warrantyInformation": "1 year warranty",
+    "shippingInformation": "Ships in 3-5 business days",
+    "availabilityStatus": "In Stock",
+    "reviews": [
+      {
+        "rating": 3,
+        "comment": "Would buy again",
+        "date": "2025-10-20T10:00:00.000Z",
+        "reviewerName": "Alice",
+        "reviewerEmail": "user11@x.com"
+      },
+      {
+        "rating": 3,
+        "comment": "Very satisfied",
+        "date": "2025-10-01T10:00:00.000Z",
+        "reviewerName": "Chloé",
+        "reviewerEmail": "user37@x.com"
+      },
+      {
+        "rating": 4,
+        "comment": "Excellent value",
+        "date": "2025-12-07T10:00:00.000Z",
+        "reviewerName": "Alice",
+        "reviewerEmail": "user38@x.com"
+      }
+    ],
+    "returnPolicy": "30 days return policy",
+    "minimumOrderQuantity": 5,
+    "meta": {
+      "createdAt": "2025-04-30T09:41:02.000Z",
+      "updatedAt": "2025-04-30T09:41:02.000Z"
+    },
+    "thumbnail": "https://cdn.example.com/27.png"
+  },
+  {
+    "id": 28,
+    "title": "Phone 3",
+    "description": "Description of Phone 3",
+    "category": "smartphones",
+    "price": 1209.26,
+    "discountPercentage": 20.2,
+    "rating": 3.61,
+    "stock": 25,
+    "tags": [
+      "smartphones",
+      "sample"
+    ],
+    "brand": "Apple",
+    "sku": "SKU0028",
+    "weight": 7,
+    "warrantyInformation": "1 year warranty",
+    "shippingInformation": "Ships in 3-5 business days",
+    "availabilityStatus": "In Stock",
+    "reviews": [
+      {
+        "rating": 1,
+        "comment": "Poor quality",
+        "date": "2025-09-14T10:00:00.000Z",
+        "reviewerName": "Chloé",
+        "reviewerEmail": "user5@x.com"
+      },
+      {
+        "rating": 5,
+        "comment": "Poor quality",
+        "date": "2025-01-28T10:00:00.000Z",
+        "reviewerName": "David",
+        "reviewerEmail": "user32@x.com"
+      },
+      {
+        "rating": 1,
+        "comment": "Excellent value",
+        "date": "2025-06-21T10:00:00.000Z",
+        "reviewerName": "David",
+        "reviewerEmail": "user10@x.com"
+      },
+      {
+        "rating": 4,
+        "comment": "Would buy again",
+        "date": "2025-12-17T10:00:00.000Z",
+        "reviewerName": "Chloé",
+        "reviewerEmail": "user40@x.com"
+      }
+    ],
+    "returnPolicy": "30 days return policy",
+    "minimumOrderQuantity": 5,
+    "meta": {
+      "createdAt": "2025-04-30T09:41:02.000Z",
+      "updatedAt": "2025-04-30T09:41:02.000Z"
+    },
+    "thumbnail": "https://cdn.example.com/28.png"
+  },
+  {
+    "id": 29,
+    "title": "Phone 4",
+    "description": "Description of Phone 4",
+    "category": "smartphones",
+    "price": 406.25,
+    "discountPercentage": 4.55,
+    "rating": 2.64,
+    "stock": 120,
+    "tags": [
+      "smartphones",
+      "sample"
+    ],
+    "brand": "Apple",
+    "sku": "SKU0029",
+    "weight": 6,
+    "warrantyInformation": "1 year warranty",
+    "shippingInformation": "Ships in 3-5 business days",
+    "availabilityStatus": "In Stock",
+    "reviews": [
+      {
+        "rating": 1,
+        "comment": "Not as described",
+        "date": "2025-08-08T10:00:00.000Z",
+        "reviewerName": "David",
+        "reviewerEmail": "user37@x.com"
+      },
+      {
+        "rating": 5,
+        "comment": "Excellent value",
+        "date": "2025-06-01T10:00:00.000Z",
+        "reviewerName": "David",
+        "reviewerEmail": "user21@x.com"
+      }
+    ],
+    "returnPolicy": "30 days return policy",
+    "minimumOrderQuantity": 3,
+    "meta": {
+      "createdAt": "2025-04-30T09:41:02.000Z",
+      "updatedAt": "2025-04-30T09:41:02.000Z"
+    },
+    "thumbnail": "https://cdn.example.com/29.png"
+  },
+  {
+    "id": 30,
+    "title": "Phone 5",
+    "description": "Description of Phone 5",
+    "category": "smartphones",
+    "price": 1321.08,
+    "discountPercentage": 11.83,
+    "rating": 3.59,
+    "stock": 25,
+    "tags": [
+      "smartphones",
+      "sample"
+    ],
+    "brand": "Oppo",
+    "sku": "SKU0030",
+    "weight": 9,
+    "warrantyInformation": "1 year warranty",
+    "shippingInformation": "Ships in 3-5 business days",
+    "availabilityStatus": "In Stock",
+    "reviews": [
+      {
+        "rating": 3,
+        "comment": "Disappointed",
+        "date": "2025-01-17T10:00:00.000Z",
+        "reviewerName": "Bob",
+        "reviewerEmail": "user6@x.com"
+      },
+      {
+        "rating": 2,
+        "comment": "Excellent value",
+        "date": "2025-08-18T10:00:00.000Z",
+        "reviewerName": "Bob",
+        "reviewerEmail": "user31@x.com"
+      },
+      {
+        "rating": 4,
+        "comment": "Fast delivery",
+        "date": "2025-01-03T10:00:00.000Z",
+        "reviewerName": "Chloé",
+        "reviewerEmail": "user15@x.com"
+      },
+      {
+        "rating": 4,
+        "comment": "Average quality",
+        "date": "2025-05-22T10:00:00.000Z",
+        "reviewerName": "Emma",
+        "reviewerEmail": "user24@x.com"
+      }
+    ],
+    "returnPolicy": "30 days return policy",
+    "minimumOrderQuantity": 3,
+    "meta": {
+      "createdAt": "2025-04-30T09:41:02.000Z",
+      "updatedAt": "2025-04-30T09:41:02.000Z"
+    },
+    "thumbnail": "https://cdn.example.com/30.png"
+  },
+  {
+    "id": 1,
+    "title": "Lipstick 1",
+    "description": "Description of Lipstick 1",
+    "category": "beauty",
+    "price": 192.91,
+    "discountPercentage": 5.47,
+    "rating": 3.52,
+    "stock": 0,
+    "tags": [
+      "beauty",
+      "sample"
+    ],
+    "brand": "Nail Couture",
+    "sku": "SKU0001",
+    "weight": 4,
+    "warrantyInformation": "1 year warranty",
+    "shippingInformation": "Ships in 3-5 business days",
+    "availabilityStatus": "In Stock",
+    "reviews": [
+      {
+        "rating": 3,
+        "comment": "Average quality",
+        "date": "2025-04-05T10:00:00.000Z",
+        "reviewerName": "Alice",
+        "reviewerEmail": "user35@x.com"
+      },
+      {
+        "rating": 1,
+        "comment": "Highly recommended",
+        "date": "2025-07-02T10:00:00.000Z",
+        "reviewerName": "Alice",
+        "reviewerEmail": "user6@x.com"
+      }
+    ],
+    "returnPolicy": "30 days return policy",
+    "minimumOrderQuantity": 5,
+    "meta": {
+      "createdAt": "2025-04-30T09:41:02.000Z",
+      "updatedAt": "2025-04-30T09:41:02.000Z"
+    },
+    "thumbnail": "https://cdn.example.com/1.png"
+  },
+  {
+    "id": 99,
+    "title": "Chair 1",
+    "description": "Description of Chair 1",
+    "category": "furniture",
+    "price": -5,
+    "discountPercentage": 14.6,
+    "rating": 3.51,
+    "stock": 120,
+    "tags": [
+      "furniture",
+      "sample"
+    ],
+    "brand": "Rustic",
+    "sku": "SKU0099",
+    "weight": 3,
+    "warrantyInformation": "1 year warranty",
+    "shippingInformation": "Ships in 3-5 business days",
+    "availabilityStatus": "In Stock",
+    "reviews": [
+      {
+        "rating": 4,
+        "comment": "Not as described",
+        "date": "2025-07-23T10:00:00.000Z",
+        "reviewerName": "Emma",
+        "reviewerEmail": "user32@x.com"
+      },
+      {
+        "rating": 2,
+        "comment": "Average quality",
+        "date": "2025-05-07T10:00:00.000Z",
+        "reviewerName": "Alice",
+        "reviewerEmail": "user38@x.com"
+      },
+      {
+        "rating": 5,
+        "comment": "Great product!",
+        "date": "2025-12-11T10:00:00.000Z",
+        "reviewerName": "Alice",
+        "reviewerEmail": "user4@x.com"
+      }
+    ],
+    "returnPolicy": "30 days return policy",
+    "minimumOrderQuantity": 1,
+    "meta": {
+      "createdAt": "2025-04-30T09:41:02.000Z",
+      "updatedAt": "2025-04-30T09:41:02.000Z"
+    },
+    "thumbnail": "https://cdn.example.com/11.png"
+  }
+]

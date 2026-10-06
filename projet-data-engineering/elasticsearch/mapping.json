@@ -1,0 +1,56 @@
+{
+  "products": {
+    "settings": { "number_of_shards": 1, "number_of_replicas": 0 },
+    "mappings": {
+      "dynamic": "strict",
+      "properties": {
+        "id":                   { "type": "integer" },
+        "sku":                  { "type": "keyword" },
+        "title":                { "type": "text", "fields": { "keyword": { "type": "keyword", "ignore_above": 256 } } },
+        "description":          { "type": "text" },
+        "category":             { "type": "keyword" },
+        "brand":                { "type": "keyword" },
+        "price":                { "type": "float" },
+        "discount_percentage":  { "type": "float" },
+        "price_after_discount": { "type": "float" },
+        "rating":               { "type": "float" },
+        "stock":                { "type": "integer" },
+        "stock_level":          { "type": "keyword" },
+        "price_range":          { "type": "keyword" },
+        "availability_status":  { "type": "keyword" },
+        "tags":                 { "type": "keyword" },
+        "warranty":             { "type": "keyword" },
+        "shipping":             { "type": "keyword" },
+        "return_policy":        { "type": "keyword" },
+        "min_order_quantity":   { "type": "integer" },
+        "weight":               { "type": "float" },
+        "created_at":           { "type": "date" },
+        "updated_at":           { "type": "date" },
+        "nb_reviews":           { "type": "integer" },
+        "avg_review_rating":    { "type": "float" },
+        "thumbnail":            { "type": "keyword", "index": false },
+        "ingested_at":          { "type": "date" }
+      }
+    }
+  },
+  "reviews": {
+    "settings": { "number_of_shards": 1, "number_of_replicas": 0 },
+    "mappings": {
+      "dynamic": "strict",
+      "properties": {
+        "review_id":     { "type": "keyword" },
+        "product_id":    { "type": "integer" },
+        "product_title": { "type": "text", "fields": { "keyword": { "type": "keyword", "ignore_above": 256 } } },
+        "category":      { "type": "keyword" },
+        "brand":         { "type": "keyword" },
+        "rating":        { "type": "integer" },
+        "sentiment":     { "type": "keyword" },
+        "comment":       { "type": "text" },
+        "review_date":   { "type": "date" },
+        "reviewer_name": { "type": "keyword" },
+        "reviewer_hash": { "type": "keyword" },
+        "ingested_at":   { "type": "date" }
+      }
+    }
+  }
+}

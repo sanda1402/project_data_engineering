@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.env
+logs/
+data/raw/*.json
+data/processed/*.jsonl
+data/processed/*.json
+!data/raw/.gitkeep
+!data/processed/.gitkeep

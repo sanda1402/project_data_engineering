@@ -1,0 +1,5 @@
+# Dépendances du pipeline (installées dans l'image Docker Airflow via le Dockerfile)
+# pandas et requests sont déjà fournis par l'image Airflow ; ils sont listés pour l'exécution locale.
+elasticsearch==8.15.0
+pandas>=2.0
+requests>=2.31
